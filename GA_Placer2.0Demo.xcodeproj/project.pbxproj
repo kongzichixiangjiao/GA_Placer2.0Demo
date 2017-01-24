@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		506D117EE2C284AB01999A39 /* Pods_GA_Placer2_0Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D9CE09E841F99492DF9BCA /* Pods_GA_Placer2_0Demo.framework */; };
 		DCCD51591E36F031002D4E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD51581E36F031002D4E5E /* AppDelegate.swift */; };
-		DCCD515B1E36F031002D4E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD515A1E36F031002D4E5E /* ViewController.swift */; };
 		DCCD515E1E36F031002D4E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD515C1E36F031002D4E5E /* Main.storyboard */; };
 		DCCD51601E36F031002D4E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD515F1E36F031002D4E5E /* Assets.xcassets */; };
 		DCCD51631E36F031002D4E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD51611E36F031002D4E5E /* LaunchScreen.storyboard */; };
 		DCCD516E1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD516D1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift */; };
 		DCCD51791E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD51781E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift */; };
+		DCF73DDA1E3732CD00078DFA /* theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DD91E3732CD00078DFA /* theme.swift */; };
+		DCF73DE61E37354F00078DFA /* ChangeCityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DDE1E37354F00078DFA /* ChangeCityHeaderView.swift */; };
+		DCF73DE71E37354F00078DFA /* ChangeCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DDF1E37354F00078DFA /* ChangeCityTableViewCell.swift */; };
+		DCF73DE81E37354F00078DFA /* ChangeCityTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DE01E37354F00078DFA /* ChangeCityTableViewSection.swift */; };
+		DCF73DE91E37354F00078DFA /* CityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DE11E37354F00078DFA /* CityCollectionViewCell.swift */; };
+		DCF73DEB1E37354F00078DFA /* GA_ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DE31E37354F00078DFA /* GA_ChangeCityViewController.swift */; };
+		DCF73DEF1E37359C00078DFA /* SBStringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DEE1E37359C00078DFA /* SBStringUtil.swift */; };
+		DCF73DF51E373A3400078DFA /* GA_BaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DF21E373A3400078DFA /* GA_BaseNavigationView.swift */; };
+		DCF73DF61E373A3400078DFA /* GA_CustomeSaveNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DF31E373A3400078DFA /* GA_CustomeSaveNavigationView.swift */; };
+		DCF73DF71E373A3400078DFA /* GA_ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF73DF41E373A3400078DFA /* GA_ShadowView.swift */; };
+		DCF73DF91E373BE500078DFA /* 城市选择.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF73DF81E373BE500078DFA /* 城市选择.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43D132A9D3F6B00834CC5F38 /* Pods-GA_Placer2.0Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GA_Placer2.0Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GA_Placer2.0Demo/Pods-GA_Placer2.0Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		47D9CE09E841F99492DF9BCA /* Pods_GA_Placer2_0Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GA_Placer2_0Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F198711D11E452930A01E9A /* Pods-GA_Placer2.0Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GA_Placer2.0Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GA_Placer2.0Demo/Pods-GA_Placer2.0Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DCCD51551E36F031002D4E5E /* GA_Placer2.0Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Placer2.0Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCD51581E36F031002D4E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCCD515A1E36F031002D4E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCCD515D1E36F031002D4E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCCD515F1E36F031002D4E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCCD51621E36F031002D4E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,18 @@
 		DCCD51741E36F031002D4E5E /* GA_Placer2.0DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Placer2.0DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCD51781E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Placer2_0DemoUITests.swift; sourceTree = "<group>"; };
 		DCCD517A1E36F031002D4E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF73DD91E3732CD00078DFA /* theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theme.swift; sourceTree = "<group>"; };
+		DCF73DDE1E37354F00078DFA /* ChangeCityHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCityHeaderView.swift; sourceTree = "<group>"; };
+		DCF73DDF1E37354F00078DFA /* ChangeCityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCityTableViewCell.swift; sourceTree = "<group>"; };
+		DCF73DE01E37354F00078DFA /* ChangeCityTableViewSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeCityTableViewSection.swift; sourceTree = "<group>"; };
+		DCF73DE11E37354F00078DFA /* CityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCF73DE31E37354F00078DFA /* GA_ChangeCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_ChangeCityViewController.swift; sourceTree = "<group>"; };
+		DCF73DEE1E37359C00078DFA /* SBStringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBStringUtil.swift; sourceTree = "<group>"; };
+		DCF73DF01E3735E100078DFA /* PlacerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlacerHeader.h; sourceTree = "<group>"; };
+		DCF73DF21E373A3400078DFA /* GA_BaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_BaseNavigationView.swift; sourceTree = "<group>"; };
+		DCF73DF31E373A3400078DFA /* GA_CustomeSaveNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_CustomeSaveNavigationView.swift; sourceTree = "<group>"; };
+		DCF73DF41E373A3400078DFA /* GA_ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_ShadowView.swift; sourceTree = "<group>"; };
+		DCF73DF81E373BE500078DFA /* 城市选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "城市选择.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506D117EE2C284AB01999A39 /* Pods_GA_Placer2_0Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78E3FAD674E3A7B87FB3E8EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47D9CE09E841F99492DF9BCA /* Pods_GA_Placer2_0Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DA2F2D7B2F96E1331632A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43D132A9D3F6B00834CC5F38 /* Pods-GA_Placer2.0Demo.debug.xcconfig */,
+				8F198711D11E452930A01E9A /* Pods-GA_Placer2.0Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DCCD514C1E36F031002D4E5E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,8 @@
 				DCCD516C1E36F031002D4E5E /* GA_Placer2.0DemoTests */,
 				DCCD51771E36F031002D4E5E /* GA_Placer2.0DemoUITests */,
 				DCCD51561E36F031002D4E5E /* Products */,
+				7DA2F2D7B2F96E1331632A8B /* Pods */,
+				78E3FAD674E3A7B87FB3E8EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +142,14 @@
 		DCCD51571E36F031002D4E5E /* GA_Placer2.0Demo */ = {
 			isa = PBXGroup;
 			children = (
+				DCF73DDD1E37354F00078DFA /* ChangeCity */,
 				DCCD51581E36F031002D4E5E /* AppDelegate.swift */,
-				DCCD515A1E36F031002D4E5E /* ViewController.swift */,
+				DCF73DEE1E37359C00078DFA /* SBStringUtil.swift */,
+				DCF73DF01E3735E100078DFA /* PlacerHeader.h */,
+				DCF73DD91E3732CD00078DFA /* theme.swift */,
 				DCCD515C1E36F031002D4E5E /* Main.storyboard */,
 				DCCD515F1E36F031002D4E5E /* Assets.xcassets */,
+				DCF73DF81E373BE500078DFA /* 城市选择.png */,
 				DCCD51611E36F031002D4E5E /* LaunchScreen.storyboard */,
 				DCCD51641E36F031002D4E5E /* Info.plist */,
 			);
@@ -125,6 +174,29 @@
 			path = GA_Placer2.0DemoUITests;
 			sourceTree = "<group>";
 		};
+		DCF73DDD1E37354F00078DFA /* ChangeCity */ = {
+			isa = PBXGroup;
+			children = (
+				DCF73DF11E373A3400078DFA /* public */,
+				DCF73DE31E37354F00078DFA /* GA_ChangeCityViewController.swift */,
+				DCF73DDE1E37354F00078DFA /* ChangeCityHeaderView.swift */,
+				DCF73DE01E37354F00078DFA /* ChangeCityTableViewSection.swift */,
+				DCF73DDF1E37354F00078DFA /* ChangeCityTableViewCell.swift */,
+				DCF73DE11E37354F00078DFA /* CityCollectionViewCell.swift */,
+			);
+			path = ChangeCity;
+			sourceTree = "<group>";
+		};
+		DCF73DF11E373A3400078DFA /* public */ = {
+			isa = PBXGroup;
+			children = (
+				DCF73DF21E373A3400078DFA /* GA_BaseNavigationView.swift */,
+				DCF73DF31E373A3400078DFA /* GA_CustomeSaveNavigationView.swift */,
+				DCF73DF41E373A3400078DFA /* GA_ShadowView.swift */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCCD517D1E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0Demo" */;
 			buildPhases = (
+				E3A09AB589B525BD36BC17E4 /* [CP] Check Pods Manifest.lock */,
 				DCCD51511E36F031002D4E5E /* Sources */,
 				DCCD51521E36F031002D4E5E /* Frameworks */,
 				DCCD51531E36F031002D4E5E /* Resources */,
+				D8292C01180C731E3548ADF0 /* [CP] Embed Pods Frameworks */,
+				82EA105D9C776C04A71C736F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCD51631E36F031002D4E5E /* LaunchScreen.storyboard in Resources */,
+				DCF73DF91E373BE500078DFA /* 城市选择.png in Resources */,
 				DCCD51601E36F031002D4E5E /* Assets.xcassets in Resources */,
 				DCCD515E1E36F031002D4E5E /* Main.storyboard in Resources */,
 			);
@@ -257,12 +333,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82EA105D9C776C04A71C736F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GA_Placer2.0Demo/Pods-GA_Placer2.0Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8292C01180C731E3548ADF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GA_Placer2.0Demo/Pods-GA_Placer2.0Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A09AB589B525BD36BC17E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCCD51511E36F031002D4E5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCCD515B1E36F031002D4E5E /* ViewController.swift in Sources */,
+				DCF73DE81E37354F00078DFA /* ChangeCityTableViewSection.swift in Sources */,
+				DCF73DE91E37354F00078DFA /* CityCollectionViewCell.swift in Sources */,
+				DCF73DF71E373A3400078DFA /* GA_ShadowView.swift in Sources */,
+				DCF73DE61E37354F00078DFA /* ChangeCityHeaderView.swift in Sources */,
+				DCF73DEF1E37359C00078DFA /* SBStringUtil.swift in Sources */,
+				DCF73DF51E373A3400078DFA /* GA_BaseNavigationView.swift in Sources */,
+				DCF73DEB1E37354F00078DFA /* GA_ChangeCityViewController.swift in Sources */,
+				DCF73DF61E373A3400078DFA /* GA_CustomeSaveNavigationView.swift in Sources */,
+				DCF73DDA1E3732CD00078DFA /* theme.swift in Sources */,
+				DCF73DE71E37354F00078DFA /* ChangeCityTableViewCell.swift in Sources */,
 				DCCD51591E36F031002D4E5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,26 +544,32 @@
 		};
 		DCCD517E1E36F031002D4E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D132A9D3F6B00834CC5F38 /* Pods-GA_Placer2.0Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3T975E2R33;
 				INFOPLIST_FILE = GA_Placer2.0Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GA_Placer2.0Demo/PlacerHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DCCD517F1E36F031002D4E5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F198711D11E452930A01E9A /* Pods-GA_Placer2.0Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3T975E2R33;
 				INFOPLIST_FILE = GA_Placer2.0Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GA_Placer2.0Demo/PlacerHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -512,6 +651,7 @@
 				DCCD517F1E36F031002D4E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCD51801E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +660,7 @@
 				DCCD51821E36F031002D4E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCD51831E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +669,7 @@
 				DCCD51851E36F031002D4E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

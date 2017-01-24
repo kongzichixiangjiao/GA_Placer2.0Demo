@@ -1,0 +1,6 @@
+framework module Pods_GA_Placer2_0Demo {
+  umbrella header "Pods-GA_Placer2.0Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,31 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Kingfisher (3.2.4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.0.0)
+  - SVProgressHUD (2.1.2)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - FMDB
+  - Kingfisher
+  - SDWebImage
+  - SnapKit (= 3.0.0)
+  - SVProgressHUD
+  - Toast
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Kingfisher: 8d80f39da403cd9c9ee11984e1655f4d6a566cdb
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 98af0a4e9369d3c58f758967518081dbdc7eb1d9
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 9ef65323d52a960c21c00621fb2992adbde0bdb8
+
+COCOAPODS: 1.1.0.rc.3
