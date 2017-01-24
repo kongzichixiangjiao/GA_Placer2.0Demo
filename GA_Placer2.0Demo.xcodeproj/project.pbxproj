@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCCD51591E36F031002D4E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD51581E36F031002D4E5E /* AppDelegate.swift */; };
+		DCCD515B1E36F031002D4E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD515A1E36F031002D4E5E /* ViewController.swift */; };
+		DCCD515E1E36F031002D4E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD515C1E36F031002D4E5E /* Main.storyboard */; };
+		DCCD51601E36F031002D4E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCD515F1E36F031002D4E5E /* Assets.xcassets */; };
+		DCCD51631E36F031002D4E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCD51611E36F031002D4E5E /* LaunchScreen.storyboard */; };
+		DCCD516E1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD516D1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift */; };
+		DCCD51791E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD51781E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCCD516A1E36F031002D4E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCD514D1E36F031002D4E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCD51541E36F031002D4E5E;
+			remoteInfo = GA_Placer2.0Demo;
+		};
+		DCCD51751E36F031002D4E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCCD514D1E36F031002D4E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCCD51541E36F031002D4E5E;
+			remoteInfo = GA_Placer2.0Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCCD51551E36F031002D4E5E /* GA_Placer2.0Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Placer2.0Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD51581E36F031002D4E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCCD515A1E36F031002D4E5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCCD515D1E36F031002D4E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCCD515F1E36F031002D4E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCCD51621E36F031002D4E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCCD51641E36F031002D4E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCD51691E36F031002D4E5E /* GA_Placer2.0DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Placer2.0DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD516D1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Placer2_0DemoTests.swift; sourceTree = "<group>"; };
+		DCCD516F1E36F031002D4E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCD51741E36F031002D4E5E /* GA_Placer2.0DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Placer2.0DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCCD51781E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_Placer2_0DemoUITests.swift; sourceTree = "<group>"; };
+		DCCD517A1E36F031002D4E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCCD51521E36F031002D4E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD51661E36F031002D4E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD51711E36F031002D4E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCCD514C1E36F031002D4E5E = {
+			isa = PBXGroup;
+			children = (
+				DCCD51571E36F031002D4E5E /* GA_Placer2.0Demo */,
+				DCCD516C1E36F031002D4E5E /* GA_Placer2.0DemoTests */,
+				DCCD51771E36F031002D4E5E /* GA_Placer2.0DemoUITests */,
+				DCCD51561E36F031002D4E5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCCD51561E36F031002D4E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD51551E36F031002D4E5E /* GA_Placer2.0Demo.app */,
+				DCCD51691E36F031002D4E5E /* GA_Placer2.0DemoTests.xctest */,
+				DCCD51741E36F031002D4E5E /* GA_Placer2.0DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCCD51571E36F031002D4E5E /* GA_Placer2.0Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD51581E36F031002D4E5E /* AppDelegate.swift */,
+				DCCD515A1E36F031002D4E5E /* ViewController.swift */,
+				DCCD515C1E36F031002D4E5E /* Main.storyboard */,
+				DCCD515F1E36F031002D4E5E /* Assets.xcassets */,
+				DCCD51611E36F031002D4E5E /* LaunchScreen.storyboard */,
+				DCCD51641E36F031002D4E5E /* Info.plist */,
+			);
+			path = GA_Placer2.0Demo;
+			sourceTree = "<group>";
+		};
+		DCCD516C1E36F031002D4E5E /* GA_Placer2.0DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD516D1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift */,
+				DCCD516F1E36F031002D4E5E /* Info.plist */,
+			);
+			path = GA_Placer2.0DemoTests;
+			sourceTree = "<group>";
+		};
+		DCCD51771E36F031002D4E5E /* GA_Placer2.0DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCCD51781E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift */,
+				DCCD517A1E36F031002D4E5E /* Info.plist */,
+			);
+			path = GA_Placer2.0DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCCD51541E36F031002D4E5E /* GA_Placer2.0Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD517D1E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0Demo" */;
+			buildPhases = (
+				DCCD51511E36F031002D4E5E /* Sources */,
+				DCCD51521E36F031002D4E5E /* Frameworks */,
+				DCCD51531E36F031002D4E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GA_Placer2.0Demo;
+			productName = GA_Placer2.0Demo;
+			productReference = DCCD51551E36F031002D4E5E /* GA_Placer2.0Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCCD51681E36F031002D4E5E /* GA_Placer2.0DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD51801E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0DemoTests" */;
+			buildPhases = (
+				DCCD51651E36F031002D4E5E /* Sources */,
+				DCCD51661E36F031002D4E5E /* Frameworks */,
+				DCCD51671E36F031002D4E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCD516B1E36F031002D4E5E /* PBXTargetDependency */,
+			);
+			name = GA_Placer2.0DemoTests;
+			productName = GA_Placer2.0DemoTests;
+			productReference = DCCD51691E36F031002D4E5E /* GA_Placer2.0DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCCD51731E36F031002D4E5E /* GA_Placer2.0DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCCD51831E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0DemoUITests" */;
+			buildPhases = (
+				DCCD51701E36F031002D4E5E /* Sources */,
+				DCCD51711E36F031002D4E5E /* Frameworks */,
+				DCCD51721E36F031002D4E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCCD51761E36F031002D4E5E /* PBXTargetDependency */,
+			);
+			name = GA_Placer2.0DemoUITests;
+			productName = GA_Placer2.0DemoUITests;
+			productReference = DCCD51741E36F031002D4E5E /* GA_Placer2.0DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCCD514D1E36F031002D4E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = houjianan;
+				TargetAttributes = {
+					DCCD51541E36F031002D4E5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3T975E2R33;
+						ProvisioningStyle = Automatic;
+					};
+					DCCD51681E36F031002D4E5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3T975E2R33;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCCD51541E36F031002D4E5E;
+					};
+					DCCD51731E36F031002D4E5E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3T975E2R33;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCCD51541E36F031002D4E5E;
+					};
+				};
+			};
+			buildConfigurationList = DCCD51501E36F031002D4E5E /* Build configuration list for PBXProject "GA_Placer2.0Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCCD514C1E36F031002D4E5E;
+			productRefGroup = DCCD51561E36F031002D4E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCCD51541E36F031002D4E5E /* GA_Placer2.0Demo */,
+				DCCD51681E36F031002D4E5E /* GA_Placer2.0DemoTests */,
+				DCCD51731E36F031002D4E5E /* GA_Placer2.0DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCCD51531E36F031002D4E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD51631E36F031002D4E5E /* LaunchScreen.storyboard in Resources */,
+				DCCD51601E36F031002D4E5E /* Assets.xcassets in Resources */,
+				DCCD515E1E36F031002D4E5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD51671E36F031002D4E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD51721E36F031002D4E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCCD51511E36F031002D4E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD515B1E36F031002D4E5E /* ViewController.swift in Sources */,
+				DCCD51591E36F031002D4E5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD51651E36F031002D4E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD516E1E36F031002D4E5E /* GA_Placer2_0DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCD51701E36F031002D4E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCD51791E36F031002D4E5E /* GA_Placer2_0DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCCD516B1E36F031002D4E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCD51541E36F031002D4E5E /* GA_Placer2.0Demo */;
+			targetProxy = DCCD516A1E36F031002D4E5E /* PBXContainerItemProxy */;
+		};
+		DCCD51761E36F031002D4E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCCD51541E36F031002D4E5E /* GA_Placer2.0Demo */;
+			targetProxy = DCCD51751E36F031002D4E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCCD515C1E36F031002D4E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD515D1E36F031002D4E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCCD51611E36F031002D4E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCCD51621E36F031002D4E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCCD517B1E36F031002D4E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCCD517C1E36F031002D4E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCCD517E1E36F031002D4E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T975E2R33;
+				INFOPLIST_FILE = GA_Placer2.0Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCCD517F1E36F031002D4E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T975E2R33;
+				INFOPLIST_FILE = GA_Placer2.0Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCCD51811E36F031002D4E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3T975E2R33;
+				INFOPLIST_FILE = GA_Placer2.0DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_Placer2.0Demo.app/GA_Placer2.0Demo";
+			};
+			name = Debug;
+		};
+		DCCD51821E36F031002D4E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3T975E2R33;
+				INFOPLIST_FILE = GA_Placer2.0DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_Placer2.0Demo.app/GA_Placer2.0Demo";
+			};
+			name = Release;
+		};
+		DCCD51841E36F031002D4E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3T975E2R33;
+				INFOPLIST_FILE = GA_Placer2.0DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GA_Placer2.0Demo;
+			};
+			name = Debug;
+		};
+		DCCD51851E36F031002D4E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3T975E2R33;
+				INFOPLIST_FILE = GA_Placer2.0DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Placer2-0DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GA_Placer2.0Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCCD51501E36F031002D4E5E /* Build configuration list for PBXProject "GA_Placer2.0Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD517B1E36F031002D4E5E /* Debug */,
+				DCCD517C1E36F031002D4E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCD517D1E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD517E1E36F031002D4E5E /* Debug */,
+				DCCD517F1E36F031002D4E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCCD51801E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD51811E36F031002D4E5E /* Debug */,
+				DCCD51821E36F031002D4E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCCD51831E36F031002D4E5E /* Build configuration list for PBXNativeTarget "GA_Placer2.0DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCD51841E36F031002D4E5E /* Debug */,
+				DCCD51851E36F031002D4E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCCD514D1E36F031002D4E5E /* Project object */;
+}
